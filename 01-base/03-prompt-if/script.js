@@ -11,6 +11,11 @@
 
 (function() {
 
-  // your code here
+  var cake =  prompt("Do you want some cake?");
+  if (cake.toLowerCase() == "yes") {
+    alert("Congrats!")
+  } else {
+      alert("Your loss, more for me then!")
+    }
 
 })();
