@@ -12,8 +12,17 @@
 (function() {
 
     document.getElementById("run").addEventListener("click", function() {
+        const maxNumber = 21;
+        let i = 1;
+        let squareNumbers = [];
 
-        // your code here
+        while ( i <= maxNumber) {
+            let x = Math.pow(i,2);
+            squareNumbers += x+" ";
+            i++;
+        };
+
+        alert("The square numbers are: \n"+squareNumbers)
 
     });
 
