@@ -15,7 +15,16 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        let num = parseFloat(document.getElementById("number").value);
+        let total = 1;
+        let i = 1;
+
+        while (i <= num) {
+            total = total * i;
+            i++;
+        }
+
+        alert("The factorial number is "+total);
 
     });
 
