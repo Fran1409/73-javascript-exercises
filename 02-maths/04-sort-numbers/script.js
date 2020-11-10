@@ -15,7 +15,11 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        const numbers = document.getElementById("numbers").value.split(',').map(x => parseInt(x));
+
+        console.log(numbers);
+
+        alert("Sorted numbers: \n"+numbers.sort());
 
     });
 
