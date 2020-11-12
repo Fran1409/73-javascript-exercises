@@ -18,7 +18,7 @@
     let time = new Date().getHours();
     console.log(time);
 
-    if (time > 0 && time <18){
+    if (time <18){
         document.getElementById("target").innerHTML = "Hello!"
     } else {
         document.getElementById("target").innerHTML = "Good evening!"
