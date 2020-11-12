@@ -11,6 +11,21 @@
 
 (function() {
 
-    // your code here
+    document.getElementById("run").addEventListener("click", function() {
+        function getColorCode() {
+            var makeColorCode = '0123456789ABCDEF';
+            var code = '#';
+            for (var count = 0; count < 6; count++) {
+                code =code+ makeColorCode[Math.floor(Math.random() * 16)];
+            }
+            return code;
+        };
+        
+        document.body.style.backgroundColor = getColorCode();
+
+    });
+
+
+    
 
 })();
