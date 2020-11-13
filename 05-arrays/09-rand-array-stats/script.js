@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /04-dates/03-age-by-select/script.js - 4.3: calculateur d'âge
+ * /05-arrays/09-rand-array-stats/script.js - 5.9: tableau aléatoire & statistiques
  *
  * coded by leny@BeCode
  * started at 26/10/2018
@@ -12,7 +12,5 @@
 (function() {
 
     // your code here
-
-    
 
 })();
