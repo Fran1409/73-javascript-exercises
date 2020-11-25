@@ -12,5 +12,9 @@
 (function() {
 
     // your code here
-
+    const x = document.querySelectorAll(".target");
+    
+    for (let i = 0; i < x.length; i++ ) {
+        x[i].innerHTML = "Owned!";
+    };
 })();
