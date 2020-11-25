@@ -11,4 +11,15 @@
 
 (() => {
     // your code here
+    const me = {
+        lastName: "Andries",
+        firstName: "Fran",
+        age: "26",
+        city: "Sijsele",
+        country: "Belgium"
+    };
+
+    document.getElementById("run").addEventListener("click", function() {
+        console.log(me);
+    });
 })();
